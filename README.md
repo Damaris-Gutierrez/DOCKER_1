@@ -27,6 +27,6 @@ pip install -r requirements.txt
 python auth-service/test_connection.py
 
 ## 📸 Evidencia de contenedores en ejecución
-![Contenedores Docker](./microservices-lab/evidencias/evidencias.png)
+![Contenedores Docker](microservices-lab/evidencias/evidencias.png)
 
 
