@@ -1,1 +1,1 @@
-## local
+## Este servicio funcionará como **gateway local** para dirigir el tráfico entre los distintos microservicios (auth, blog, email, frontend). Permitirá gestionar rutas, balanceo de carga y configuración de puertos.

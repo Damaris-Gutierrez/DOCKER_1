@@ -1,0 +1,1 @@
+## Este servicio contendrá la interfaz web del proyecto, desarrollada con **React**. Servirá como punto de acceso principal para interactuar con los demás microservicios (auth, blog, email).

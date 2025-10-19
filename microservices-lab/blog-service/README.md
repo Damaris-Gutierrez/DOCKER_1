@@ -1,0 +1,1 @@
+## Este servicio estará encargado de gestionar publicaciones, autores y categorías dentro de la arquitectura de microservicios.
