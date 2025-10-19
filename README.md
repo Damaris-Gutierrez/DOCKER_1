@@ -18,15 +18,15 @@ Servicios base:
 ```bash
 docker compose up -d
 docker ps
-
+```
 ### 2️⃣ Instalar las dependencias
 ```bash
 pip install -r requirements.txt
-
+```
 ### 3️⃣ Probar conexión
 python auth-service/test_connection.py
 
 ## 📸 Evidencia de contenedores en ejecución
-![Contenedores Docker](microservices-lab/evidencias/evidencias.png)
+![Contenedores Docker](./microservices-lab/evidencias/evidencias.png)
 
 
