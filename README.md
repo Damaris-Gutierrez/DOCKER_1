@@ -1,14 +1,14 @@
 # Laboratorio de Microservicios (Django + React)
 
 ## Arquitectura inicial
-- [auth-service/](./auth-service)   → Autenticación y tokens JWT
-- [blog-service/](./blog-service)   → Publicaciones, autores y categorías
-- [email-service/](./email-service)   → Notificaciones y formularios
-- [frontend/](./frontend)   → Interfaz React
-- [reverse-proxy/](./reverse-proxy)   → Balanceo / Gateway local
-- [.env.example](./.env.example)   → Variables de entorno de ejemplo
-- [docker-compose.yml](./docker-compose.yml)   → Orquestador de contenedores base
-- [requirements.txt](./requirements.txt)   → Dependencias del proyecto
+- [auth-service/](./microservices-lab/auth-service)   → Autenticación y tokens JWT
+- [blog-service/](./microservices-lab/blog-service)   → Publicaciones, autores y categorías
+- [email-service/](./microservices-lab/email-service)   → Notificaciones y formularios
+- [frontend/](./microservices-lab/frontend)   → Interfaz React
+- [reverse-proxy/](./microservices-lab/reverse-proxy)   → Balanceo / Gateway local
+- [.env.example](./microservices-lab/.env.example)   → Variables de entorno de ejemplo
+- [docker-compose.yml](./microservices-lab/docker-compose.yml)   → Orquestador de contenedores base
+- [requirements.txt](./microservices-lab/requirements.txt)   → Dependencias del proyecto
 
 Servicios base:
 - PostgreSQL (5432) → Base de datos principal
@@ -27,6 +27,6 @@ pip install -r requirements.txt
 python auth-service/test_connection.py
 
 ## 📸 Evidencia de contenedores en ejecución
-![Contenedores Docker](./evidencias/evidencias.png)
+![Contenedores Docker](./microservices-lab/evidencias/evidencias.png)
 
 
